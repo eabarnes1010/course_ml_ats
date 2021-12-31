@@ -8,7 +8,7 @@ Course materials of the python examples (.py), data (.csv,.nc), and jupyter note
 
 ## Tensorflow Code
 ***
-Code was written in python 3.9.7, tensorflow 2.7.0, tensorflow-probability 0.15.0 and numpy 1.21.5. 
+Code was written in python 3.9.7, tensorflow 2.7.0, tensorflow-probability 0.15.0, sklearn 1.0.2 and numpy 1.21.5. 
 
 ### Python Environment
 ```
