@@ -24,6 +24,9 @@ pip install silence-tensorflow
 pip install tqdm
 ```
 
+## Extra Information
+***
+
 ### Credits
 The majority of the materials were created by [Dr. Elizabeth A. Barnes](https://barnes.atmos.colostate.edu), while additional collaborators are specified in the code when relevant.
 
