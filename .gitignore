@@ -1,0 +1,30 @@
+# Our stuff
+#*.pickle
+*.pklz
+*.bak
+#*.pdf
+
+*.bz2
+#*.csv
+#*.h5
+#*.json
+
+checkpoints/
+#figures/
+#saved_models/
+
+# Apple stuff
+.DS_Store
+.DS_*
+Icon
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Unit test / coverage reports
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.pyc
+.pyo
