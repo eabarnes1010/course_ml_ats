@@ -10,6 +10,7 @@
 #*.json
 
 checkpoints/
+archive/
 #figures/
 #saved_models/
 
