@@ -8,12 +8,12 @@ Course materials of the python examples (.py), data (.csv,.nc), and jupyter note
 
 ## Tensorflow Code
 ***
-Code was written in python 3.9.7, tensorflow 2.7.0, tensorflow-probability 0.15.0, sklearn 1.0.2 and numpy 1.21.5. 
+Code was written on an iMac using python 3.7, tensorflow 2.7.0, tensorflow-probability 0.15.0, scikit-learn 1.0.2 and numpy 1.21.5. 
 
 ### Python Environment
 ```
-conda create --name env-hurr-tfp python=3.9
-conda activate env-hurr-tfp
+conda create --name env-780A7-sp22 python=3.7
+conda activate env-780A7-sp22
 pip install tensorflow==2.7.0
 pip install tensorflow-probability==0.15.0
 pip install --upgrade numpy scipy pandas statsmodels matplotlib seaborn 
@@ -21,7 +21,7 @@ pip install --upgrade palettable progressbar2 tabulate icecream flake8
 pip install --upgrade keras-tuner sklearn
 pip install --upgrade jupyterlab black isort jupyterlab_code_formatter
 pip install silence-tensorflow
-pip install tqdm
+pip install tqdm pydot
 ```
 
 ## Extra Information
