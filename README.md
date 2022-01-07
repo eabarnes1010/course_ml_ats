@@ -22,6 +22,7 @@ pip install --upgrade keras-tuner sklearn
 pip install --upgrade jupyterlab black isort jupyterlab_code_formatter
 pip install silence-tensorflow
 pip install tqdm pydot
+pip install graphviz
 ```
 
 ## Extra Information
