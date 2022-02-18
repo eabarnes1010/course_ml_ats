@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label="dayofyear <= 110.5\ngini = 0.5\nsamples = 6440\nvalue = [3289, 3151]\nclass = below 10C", fillcolor="#fefaf7"] ;
-1 [label="RH [%] <= 29.975\ngini = 0.235\nsamples = 1982\nvalue = [1713, 269]\nclass = below 10C", fillcolor="#e99558"] ;
+0 [label="RH [%] <= 43.515\ngini = 0.564\nsamples = 4062\nvalue = [473, 2810, 3157]\nclass = warm >10C", fillcolor="#f3ecfd"] ;
+1 [label="dayofyear <= 65.5\ngini = 0.375\nsamples = 1689\nvalue = [1, 674, 2028]\nclass = warm >10C", fillcolor="#ab7bee"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.463\nsamples = 324\nvalue = [118, 206]\nclass = above 10C", fillcolor="#aad5f4"] ;
+2 [label="gini = 0.263\nsamples = 240\nvalue = [1, 322, 58]\nclass = cold <10C", fillcolor="#5dea98"] ;
 1 -> 2 ;
-3 [label="gini = 0.073\nsamples = 1658\nvalue = [1595, 63]\nclass = below 10C", fillcolor="#e68641"] ;
+3 [label="gini = 0.257\nsamples = 1449\nvalue = [0, 352, 1970]\nclass = warm >10C", fillcolor="#985cea"] ;
 1 -> 3 ;
-4 [label="dayofyear <= 288.5\ngini = 0.457\nsamples = 4458\nvalue = [1576, 2882]\nclass = above 10C", fillcolor="#a5d3f3"] ;
+4 [label="Wind [m/s] <= 0.405\ngini = 0.566\nsamples = 2373\nvalue = [472, 2136, 1129]\nclass = cold <10C", fillcolor="#b3f5ce"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="gini = 0.261\nsamples = 3112\nvalue = [481, 2631]\nclass = above 10C", fillcolor="#5dafea"] ;
+5 [label="gini = 0.615\nsamples = 171\nvalue = [109, 123, 41]\nclass = cold <10C", fillcolor="#eefdf4"] ;
 4 -> 5 ;
-6 [label="gini = 0.303\nsamples = 1346\nvalue = [1095, 251]\nclass = below 10C", fillcolor="#eb9e66"] ;
+6 [label="gini = 0.553\nsamples = 2202\nvalue = [363, 2013, 1088]\nclass = cold <10C", fillcolor="#b2f5ce"] ;
 4 -> 6 ;
 }
