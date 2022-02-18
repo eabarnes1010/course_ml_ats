@@ -13,6 +13,8 @@ checkpoints/
 archive/
 #figures/
 #saved_models/
+data/conus1a.nc
+
 
 # Apple stuff
 .DS_Store
