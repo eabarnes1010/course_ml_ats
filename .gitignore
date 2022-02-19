@@ -1,33 +1,23 @@
-# Our stuff
-#*.pickle
-*.pklz
-*.bak
-#*.pdf
-
-*.bz2
-#*.csv
-#*.h5
-#*.json
-
-checkpoints/
+#Specific
 archive/
-#figures/
-#saved_models/
+standby/
 data/conus1a.nc
+data/EPCP72_data.pickle
 
+# General
+.gitignore
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+__pycache__/
+*.ipynb_checkpoints
+*.pyc
+*.pyo
+checkpoints/
 
-# Apple stuff
+#Apple Stuff
 .DS_Store
 .DS_*
 Icon
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
 
-# Unit test / coverage reports
-.pytest_cache/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-.pyc
-.pyo
