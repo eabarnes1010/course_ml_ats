@@ -2,7 +2,7 @@
 archive/
 standby/
 data/conus1a.nc
-data/EPCP72_data.pickle
+#data/EPCP72_data.pickle
 
 # General
 .ipynb_checkpoints/
