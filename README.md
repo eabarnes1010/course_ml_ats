@@ -1,24 +1,24 @@
 # ATS 780A7 - Machine Learning for the Atmospheric Sciences (Colorado State University)
 ***
-Course materials of the python examples (.py), data (.csv,.nc), and jupyter notebooks (.ipynb) used ATS 780A7 Spring 2022. The python examples and their data can just be downloaded or run on Google's Colaboratory.
+Course materials of the python examples (.py), data (.csv,.nc), and jupyter notebooks (.ipynb) used in ATS 780A7 SP22, F23. The python examples and their data can just be downloaded or run on Google's Colaboratory.
 
 ## Tensorflow Code
 ***
-Code was written on an iMac using python 3.7, tensorflow 2.7.0, tensorflow-probability 0.15.0, scikit-learn 1.0.2 and numpy 1.21.5. 
+Code was written on an Apple M1 Max chip using python 3.10, tensorflow 2.7.0, and tensorflow-probability 0.15.0.
 
 ### Python Environment
 ```
-conda create --name env-780A7-sp22 python=3.7
-conda activate env-780A7-sp22
-pip install tensorflow==2.7.0
-pip install tensorflow-probability==0.15.0
-pip install --upgrade numpy scipy pandas statsmodels matplotlib seaborn 
-pip install --upgrade palettable progressbar2 tabulate icecream flake8
-pip install --upgrade keras-tuner sklearn
-pip install --upgrade jupyterlab black isort jupyterlab_code_formatter
-pip install silence-tensorflow
-pip install tqdm pydot
-pip install graphviz
+- conda create --name env-780A7f23 python=3.10.10
+- conda activate env-780A7f23
+- conda install -c apple -c conda-forge -c nodefaults tensorflow-deps
+- python -m pip install tensorflow-macos==2.10.0
+- python -m pip install tensorflow-metal==0.6.0
+- pip install tensorflow-probability==0.15 silence-tensorflow
+- conda install numpy scipy matplotlib scikit-learn jupyterlab
+- pip install pandas statsmodels icecream palettable seaborn progressbar2 tabulate isort
+- pip install tqdm pydot graphviz
+- pip install -U scikit-image
+- pip install shap
 ```
 
 ## Extra Information
