@@ -12,6 +12,7 @@ __pycache__/
 *.pyc
 *.pyo
 checkpoints/
+archive/
 
 #Apple Stuff
 .DS_Store
